@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AspectRatioTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AspectRatioTest_jar</output-path>
+    <root id="archive" name="AspectRatioTest.jar">
+      <element id="module-output" name="AspectRatioTest" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotson-2.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.0.6/kotlin-stdlib-1.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-runtime/1.0.6/kotlin-runtime-1.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotlin-stdlib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotlin-test.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotlin-stdlib-jre7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/salomonbrys/kotson/kotson/2.5.0/kotlin-stdlib-jre8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
