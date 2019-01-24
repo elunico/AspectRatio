@@ -1,3 +1,4 @@
+
 import javafx.application.Application
 import javafx.event.ActionEvent
 import javafx.event.EventHandler
@@ -31,7 +32,17 @@ class Main: Application() {
         val width = Screen.getPrimary().bounds.width
         val height = Screen.getPrimary().bounds.height
         val gcd = gcd(width, height)
-        val l = Label("The aspect ratio of your primary screen is ${(width / gcd).toInt()}:${(height / gcd).toInt()}")
+
+        var wsize = (width / gcd).toInt()
+        var hsize = (height / gcd).toInt()
+        if (wsize < 16 && 16 % wsize == 0 &&
+            wsize.toDouble() / hsize.toDouble() != 4.0 / 3.0) {
+            val mul = 16 / wsize
+            wsize *= mul
+            hsize *= mul
+        }
+
+        val l = Label("The aspect ratio of your primary screen is $wsize:$hsize")
         val b = Button("OK")
         b.onAction = EventHandler<ActionEvent> { primaryStage.close() }
         l.font = Font.font(Font.getDefault().family, FontWeight.BOLD, 18.0)
